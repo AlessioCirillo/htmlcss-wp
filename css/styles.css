@@ -5,14 +5,55 @@
 }
 
 body{
-  padding: 30px;
+  padding: 20px 20%;
+  background-image: url(../img/natural-pattern.png);
+  font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 header{
-  height: 200px;
-  background: yellow;
   margin-bottom: 10px;
 }
+
+.header-top{
+  text-align: center;
+  background-image: url(../img/natural-header.jpg);
+  background-size: cover;
+  border: 10px solid white;
+  padding: 50px 5px;
+}
+
+.header-top img{
+  width: 50%;
+}
+
+.header-top h2{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* MENU HEADER */
+
+.header-menu{
+  background-color: #666;
+  text-align: center;
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+}
+
+li{
+  text-align: center;
+}
+
+
+
+
+
 
 main::after{
   content: '';
