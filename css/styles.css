@@ -44,29 +44,33 @@ header{
   text-align: center;
 }
 
-ul{
+.header-menu ul{
   display: inline-block;
   list-style: none;
 }
 
-li{
+.header-menu ul li{
   font-weight: 700;
   padding: 15px;
   text-align: center;
 }
 
-a{
+.header-menu ul li a{
   color: white;
+}
+
+a{
   text-decoration: none;
 }
 
-li:hover{
+.header-menu ul li:hover{
   cursor: pointer;
   background-color: lightgrey;
 }
 
 
 /* MAIN SECTION */
+
 main::after{
   content: '';
   display: table;
@@ -78,30 +82,57 @@ main::after{
 }
 
 .col-left{
-  width: 25%;
-  height: 300px;
-  background: pink;
+  padding: 5px;
+  width: 20%;
+  background: white;
 }
 
+.parte-alta h2{
+  font-weight: 400;
+  color: grey;
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.simbolo{
+  padding: 3px;
+  vertical-align: top;
+  display: inline-block;
+  color: orange;
+}
+
+.col-left ul{
+  padding: 5px;
+list-style: none;
+}
+
+.col-left a{
+  color: green;
+}
+
+
 section{
-  width: 40%;
+  width: 50%;
   margin: 0 5%;
   height: 450px;
-  background: purple;
+  background: white;
 }
 
 .col-right{
-  width: 25%;
+  width: 20%;
 }
 
 .widget{
   height: 200px;
-  background: pink;
+  background: white;
   margin-bottom: 15px;
 }
+
+
+/* FOOTER */
 
 footer{
   height: 150px;
   margin-top: 10px;
-  background: blue;
+  background: white;
 }
