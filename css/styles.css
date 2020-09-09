@@ -114,18 +114,39 @@ list-style: none;
 section{
   width: 50%;
   margin: 0 5%;
-  height: 450px;
   background: white;
 }
+.main{
+  padding: 15px;
+}
+
+.main h2,
+.widget h2{
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: grey;
+  font-weight: 400;
+}
+
+.main p,
+.widget p{
+  font-weight: 400;
+  line-height: 25px;
+}
+
 
 .col-right{
   width: 20%;
 }
 
 .widget{
-  height: 200px;
+  padding: 15px;
   background: white;
   margin-bottom: 15px;
+}
+
+#h2-widget{
+  text-transform: none;
 }
 
 
