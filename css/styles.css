@@ -11,7 +11,6 @@ body{
 }
 
 /* HEADER */
-
 header{
   margin-bottom: 10px;
 }
@@ -35,7 +34,6 @@ header{
 }
 
 /* MENU HEADER */
-
 .header-menu{
   font-size: 10px;
   text-transform: uppercase;
@@ -68,9 +66,7 @@ a{
   background-color: lightgrey;
 }
 
-
 /* MAIN SECTION */
-
 main::after{
   content: '';
   display: table;
@@ -81,8 +77,15 @@ main::after{
   float: left;
 }
 
+.col,
+.widget,
+footer{
+  border-radius: 5px;
+}
+
+/* COLONNA SINISTRA */
 .col-left{
-  padding: 5px;
+  padding: 1px 5px;
   width: 20%;
   background: white;
 }
@@ -95,7 +98,7 @@ main::after{
 }
 
 .simbolo{
-  padding: 3px;
+  font-size: 30px;
   vertical-align: top;
   display: inline-block;
   color: orange;
@@ -110,16 +113,18 @@ list-style: none;
   color: green;
 }
 
-
+/* COLONNA CENTRALE */
 section{
   width: 50%;
   margin: 0 5%;
   background: white;
 }
+
 .main{
   padding: 15px;
 }
 
+/* STILE E DISTANZE TESTO */
 .main h2,
 .widget h2{
   margin-bottom: 30px;
@@ -134,7 +139,7 @@ section{
   line-height: 25px;
 }
 
-
+/* COLONNA DESTRA */
 .col-right{
   width: 20%;
 }
@@ -149,11 +154,57 @@ section{
   text-transform: none;
 }
 
-
 /* FOOTER */
-
 footer{
-  height: 150px;
-  margin-top: 10px;
+  text-align: center;
   background: white;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+footer p{
+  text-align: center;
+  color: #cecece;
+  font-style: italic;
+}
+
+footer hr{
+  color: #cecece;
+}
+
+.social{
+  list-style: none;
+}
+
+.social::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social li{
+  float: left;
+  width: 33.333%;
+  height: 100px;
+  padding: 35px;
+}
+
+.social li a{
+  color: #cecece;
+}
+
+.social li a i{
+    font-size: 30px;
+}
+
+.fb :hover{
+  color: blue;
+}
+
+.insta :hover{
+  color: red;
+}
+
+.github :hover{
+  color: black;
 }
